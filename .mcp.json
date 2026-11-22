@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "uspto-patent-search": {
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/uspto-patent-search"
+    }
+  }
+}

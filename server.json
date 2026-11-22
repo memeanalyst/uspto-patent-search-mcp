@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.memeanalyst/uspto-patent-search-mcp",
+  "title": "USPTO Patent Search \u2014 New Patent Alerts",
+  "description": "Search USPTO patents by keyword, assignee or inventor, by Magnova",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/memeanalyst/uspto-patent-search-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=fetch-actor-details,magnova/uspto-patent-search"
+    }
+  ]
+}
